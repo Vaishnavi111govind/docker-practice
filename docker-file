@@ -1,0 +1,5 @@
+FROM nginx
+MAINTAINER author vaishnavi
+LABEL this is my first image                           
+Expose 80
+COPY index.html /usr/share/nginx/html
